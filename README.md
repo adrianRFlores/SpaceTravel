@@ -14,5 +14,9 @@ Presionar imagen para ver video en Youtube:
 
 [![Ver video en Youtube](http://img.youtube.com/vi/MiT8qdrzukA/0.jpg)](https://youtu.be/MiT8qdrzukA?si=BHhRsvc5CSv6OUrn)
 
+## Planets
+
+Para obtener una mejor vista de los planetas y sus shaders, se recomienda ver el repositorio realizado específicamente para esto: [planetShaders](https://github.com/adrianRFlores/planetShaders)
+
 ## Compilación
 Se proporciona un archivo makefile para compilar este proyecto. En mi caso, utilicé la herramienta make incluida en el paquete de MinGW para llevar a cabo la compilación (```mingw32-make.exe```). Es importante destacar que el compilador debe contar con una implementación de pthreads para aprovechar el uso de threading con OpenMP. No es necesario tener instalados SDL y GLM, ya que estos vienen empaquetados dentro de la carpeta src.
